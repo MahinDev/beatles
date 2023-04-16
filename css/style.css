@@ -86,7 +86,8 @@ a{
     font-weight:550;
 }
 .options a:hover{
-     color: rgb(151, 17, 17);
+    color: rgb(151, 17, 17);
+    transition: all linear 0.3s;
 }
 .Home{
     color: #0872b9 !important;
@@ -159,6 +160,11 @@ a{
     padding: 10px 20px;
     background-color: transparent;
     font-family: 'Open Sans', sans-serif;
+}
+.contact:hover{
+    background-color: cadetblue;
+    transition: all linear 0.4s;
+    border: none;
 }
 .button{
     text-align: right;
@@ -315,6 +321,9 @@ a{
 .clear{
     clear: both;
 }
+.prot-img img{
+    display: block;
+}
 .prot-img{
   position: relative;
 }
@@ -369,6 +378,7 @@ a{
 }
 .team-column:hover{
     color: #5bc5f4;
+    transition: 0.4s;
 }
 .team-row .team-column:nth-child(4){
     margin-right: 0px;
@@ -411,8 +421,12 @@ a{
 .pic1{
     position: relative;
 }
-.details{
+.pic1 img{
+    display: block;
+}
+.details {
     text-align: center;
+    padding-top: 10px;
 }
 .details h3{
     font-family: 'Oswald', sans-serif; 
@@ -473,6 +487,7 @@ a{
     height: 36px;
     background: #f1f1f1;
     transform: translateX(-50%) rotate(45deg);
+
 
 }
 .star ul li{
